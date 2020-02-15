@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d105bc0e-ac27-4599-bd2a-dc0f9286f248" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xb047sUcBVW7F6IkhXiAqIkdMl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/js/app/helpers" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d105bc0e-ac27-4599-bd2a-dc0f9286f248" name="Default Changelist" comment="" />
+      <created>1581299292363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581299292363</updated>
+      <workItem from="1581299293484" duration="1486000" />
+      <workItem from="1581364892348" duration="4964000" />
+      <workItem from="1581462423011" duration="730000" />
+      <workItem from="1581509410287" duration="204000" />
+      <workItem from="1581518925244" duration="471000" />
+      <workItem from="1581621119592" duration="2926000" />
+      <workItem from="1581720362188" duration="7605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="689" y="326" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581723450870">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state x="689" y="326" key="#com.intellij.fileTypes.FileTypeChooser/-1680.23.1680.1027/0.23.1920.987@0.23.1920.987" timestamp="1581621591774" />
+    <state x="689" y="326" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1920.987@0.23.1920.987" timestamp="1581723450870" />
+    <state x="698" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581301016582">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state x="698" y="272" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.987@0.23.1920.987" timestamp="1581301016582" />
+    <state x="496" y="336" key="com.intellij.ide.util.TipDialog" timestamp="1581509557709">
+      <screen x="0" y="23" width="1680" height="957" />
+    </state>
+    <state x="496" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.957@0.23.1680.957" timestamp="1581509557709" />
+  </component>
+</project>
