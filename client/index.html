@@ -13,7 +13,7 @@
 
         <div id="messageContainer"></div>
 
-        <form class="form" onsubmit="tradeController.add(event)">
+        <form class="form">
 
             <div class="form-group">
                 <label for="date">Data</label>
@@ -34,7 +34,7 @@
         </form>
 
         <div class="text-center">
-            <button class="btn btn-primary text-center" type="button" onclick="tradeController.clear()">
+            <button id="clearButton" class="btn btn-primary text-center" type="button">
                 Apagar
             </button>
         </div>
@@ -43,23 +43,11 @@
 
         <div id="tradeListContainer"></div>
 
-        <script type="text/javascript" src="js/app/views/View.js"></script>
-        <script type="text/javascript" src="js/app/helpers/Bind.js"></script>
-        <script type="text/javascript" src="js/app/helpers/DateHelper.js"></script>
-        <script type="text/javascript" src="js/app/services/ConnectionFactory.js"></script>
-        <script type="text/javascript" src="js/app/services/HttpService.js"></script>
-        <script type="text/javascript" src="js/app/services/ProxyFactory.js"></script>
-        <script type="text/javascript" src="js/app/services/TradeService.js"></script>
-        <script type="text/javascript" src="js/app/models/Trade.js"></script>
-        <script type="text/javascript" src="js/app/models/TradeList.js"></script>
-        <script type="text/javascript" src="js/app/models/Message.js"></script>
-        <script type="text/javascript" src="js/app/dao/TradeDAO.js"></script>
-        <script type="text/javascript" src="js/app/views/TradeListView.js"></script>
-        <script type="text/javascript" src="js/app/views/MessageView.js"></script>
-        <script type="text/javascript" src="js/app/controllers/TradeController.js"></script>
-
+        <script type="text/javascript" src="node_modules/systemjs/dist/system.js"></script>
         <script type="text/javascript">
-            let tradeController = new TradeController();
+            System.import('./js/app/boot.js').catch(reason => {
+                console.log(reason);
+            });
         </script>
     </body>
 </html>

@@ -1,13 +1,61 @@
-class View {
-    constructor(container) {
-        this._container = container;
+'use strict';
+
+System.register([], function (_export, _context) {
+    "use strict";
+
+    var _createClass, View;
+
+    function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+            throw new TypeError("Cannot call a class as a function");
+        }
     }
 
-    _template(data) {
-        throw new Error('Views must implement template method.');
-    }
+    return {
+        setters: [],
+        execute: function () {
+            _createClass = function () {
+                function defineProperties(target, props) {
+                    for (var i = 0; i < props.length; i++) {
+                        var descriptor = props[i];
+                        descriptor.enumerable = descriptor.enumerable || false;
+                        descriptor.configurable = true;
+                        if ("value" in descriptor) descriptor.writable = true;
+                        Object.defineProperty(target, descriptor.key, descriptor);
+                    }
+                }
 
-    update(data) {
-        this._container.innerHTML = this._template(data);
-    }
-}
+                return function (Constructor, protoProps, staticProps) {
+                    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+                    if (staticProps) defineProperties(Constructor, staticProps);
+                    return Constructor;
+                };
+            }();
+
+            _export('View', View = function () {
+                function View(container) {
+                    _classCallCheck(this, View);
+
+                    this._container = container;
+                }
+
+                _createClass(View, [{
+                    key: '_template',
+                    value: function _template(data) {
+                        throw new Error('Views must implement template method.');
+                    }
+                }, {
+                    key: 'update',
+                    value: function update(data) {
+                        this._container.innerHTML = this._template(data);
+                    }
+                }]);
+
+                return View;
+            }());
+
+            _export('View', View);
+        }
+    };
+});
+//# sourceMappingURL=View.js.map

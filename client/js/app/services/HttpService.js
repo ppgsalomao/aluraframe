@@ -1,28 +1,81 @@
-class HttpService {
-    get(url) {
-        return new Promise((resolve, reject) => {
-            let request = new XMLHttpRequest();
+'use strict';
 
-            request.open('GET', url);
-            request.onreadystatechange = () => {
-                /*
-                 States:
-                   0 => Not started
-                   1 => Connection established
-                   2 => Request received
-                   3 => Processing request
-                   4 => Request finished and response received.
-                 */
+System.register([], function (_export, _context) {
+    "use strict";
 
-                if(request.readyState === 4) {
-                    if(request.status === 200) {
-                        resolve(JSON.parse(request.responseText));
-                    } else {
-                        reject(request.responseText);
+    var _createClass, HttpService;
+
+    function _classCallCheck(instance, Constructor) {
+        if (!(instance instanceof Constructor)) {
+            throw new TypeError("Cannot call a class as a function");
+        }
+    }
+
+    return {
+        setters: [],
+        execute: function () {
+            _createClass = function () {
+                function defineProperties(target, props) {
+                    for (var i = 0; i < props.length; i++) {
+                        var descriptor = props[i];
+                        descriptor.enumerable = descriptor.enumerable || false;
+                        descriptor.configurable = true;
+                        if ("value" in descriptor) descriptor.writable = true;
+                        Object.defineProperty(target, descriptor.key, descriptor);
                     }
                 }
-            };
-            request.send();
-        });
-    }
-}
+
+                return function (Constructor, protoProps, staticProps) {
+                    if (protoProps) defineProperties(Constructor.prototype, protoProps);
+                    if (staticProps) defineProperties(Constructor, staticProps);
+                    return Constructor;
+                };
+            }();
+
+            _export('HttpService', HttpService = function () {
+                function HttpService() {
+                    _classCallCheck(this, HttpService);
+                }
+
+                _createClass(HttpService, [{
+                    key: '_handleErrors',
+                    value: function _handleErrors(response) {
+                        if (!response.ok) {
+                            throw new Error(res.statusText);
+                        }
+                        return response;
+                    }
+                }, {
+                    key: 'get',
+                    value: function get(url) {
+                        var _this = this;
+
+                        return fetch(url).then(function (response) {
+                            return _this._handleErrors(response);
+                        }).then(function (response) {
+                            return response.json();
+                        });
+                    }
+                }, {
+                    key: 'post',
+                    value: function post(url, data) {
+                        var _this2 = this;
+
+                        return fetch(url, {
+                            headers: { 'Content-Type': 'application/json' },
+                            method: 'post',
+                            body: JSON.stringify(data)
+                        }).then(function (response) {
+                            return _this2._handleErrors(response);
+                        });
+                    }
+                }]);
+
+                return HttpService;
+            }());
+
+            _export('HttpService', HttpService);
+        }
+    };
+});
+//# sourceMappingURL=HttpService.js.map

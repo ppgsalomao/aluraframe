@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d105bc0e-ac27-4599-bd2a-dc0f9286f248" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/js/app-es6/boot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/js/app-es6/services/HttpService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/indexeddb.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/indexeddb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/controllers/TradeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/controllers/TradeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/dao/TradeDAO.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/dao/TradeDAO.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/helpers/Bind.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/helpers/Bind.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/helpers/DateHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/helpers/DateHelper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/models/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/models/Message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/models/Trade.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/models/Trade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/models/TradeList.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/models/TradeList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/services/ConnectionFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/services/ConnectionFactory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/services/HttpService.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/services/ProxyFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/services/ProxyFactory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/services/TradeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/services/TradeService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/views/MessageView.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/views/MessageView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/views/TradeListView.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/views/TradeListView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/js/app/views/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/js/app-es6/views/View.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -54,7 +72,7 @@
       <workItem from="1581509410287" duration="204000" />
       <workItem from="1581518925244" duration="471000" />
       <workItem from="1581621119592" duration="2926000" />
-      <workItem from="1581720362188" duration="7829000" />
+      <workItem from="1581720362188" duration="11764000" />
     </task>
     <servers />
   </component>
@@ -75,5 +93,13 @@
       <screen x="0" y="23" width="1680" height="957" />
     </state>
     <state x="496" y="336" key="com.intellij.ide.util.TipDialog/0.23.1680.957@0.23.1680.957" timestamp="1581509557709" />
+    <state x="637" y="280" width="645" height="472" key="find.popup" timestamp="1581813437239">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state x="637" y="280" width="645" height="472" key="find.popup/0.23.1920.987@0.23.1920.987" timestamp="1581813437239" />
+    <state x="625" y="167" width="670" height="676" key="search.everywhere.popup" timestamp="1581812643879">
+      <screen x="0" y="23" width="1920" height="987" />
+    </state>
+    <state x="625" y="167" width="670" height="676" key="search.everywhere.popup/0.23.1920.987@0.23.1920.987" timestamp="1581812643879" />
   </component>
 </project>
